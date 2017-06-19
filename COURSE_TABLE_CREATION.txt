@@ -1,0 +1,6 @@
+create table course 
+(SubjectCode varchar2(20) primary key,
+SubjectName varchar2(50) not null,
+Lectures number(2),
+TPD number(2),
+Credits number(2));
